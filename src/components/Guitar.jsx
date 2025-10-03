@@ -9,7 +9,7 @@ export default function Guitar({ guitar,setCart,addToCart } /*aqui va el nombre 
         <div className="col-4">
           <img
             className="img-fluid"
-            src={`/img/${image}.jpg`} 
+            src={`${import.meta.env.BASE_URL}/img/${image}.jpg`} 
             alt={name}
           />
         </div>
