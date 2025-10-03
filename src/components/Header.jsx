@@ -30,7 +30,7 @@ export default function Header({ cart,removeFromToCart,incrementarQuantity, decr
               <a href="index.html">
                 <img
                   className="img-fluid"
-                  src="/img/logo.svg"
+                  src={`${import.meta.env.BASE_URL}/img/guitarra_12.jpg`}
                   alt="imagen logo"
                 />
               </a>
