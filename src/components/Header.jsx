@@ -39,7 +39,7 @@ export default function Header({ cart,removeFromToCart,incrementarQuantity, decr
               <div className="carrito">
                 <img
                   className="img-fluid"
-                  src="/img/carrito.png"
+                  src={`${import.meta.env.BASE_URL}/img/carrito.png`}
                   alt="imagen carrito"
                 />
 
@@ -64,7 +64,7 @@ export default function Header({ cart,removeFromToCart,incrementarQuantity, decr
                               <td>
                                 <img
                                   className="img-fluid"
-                                  src={`/img/${guitar.image}.jpg`}
+                                  src={`${import.meta.env.BASE_URL}/img/${guitar.image}.jpg`}
                                   alt="imagen guitarra"
                                 />
                               </td>
